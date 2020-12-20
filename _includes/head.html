@@ -1,6 +1,23 @@
 <head>
     {% include meta.html %}
     <title>{{site.title}}</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/assets/images/touch/apple.png">
+    <script>
+    if ("serviceWorker" in navigator) {
+        if (navigator.serviceWorker.controller) {
+          console.log("An active service worker found, no need to register");
+        } else {
+          navigator.serviceWorker
+            .register("{{ site.baseurl }}/service-worker.js", {
+              scope: "./"
+            })
+            .then(function (reg) {
+              console.log("Service worker has been registered for scope: " + reg.scope);
+            });
+        }
+      }
+    </script>
     <link rel="stylesheet" href="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/css/style.css">
     <script src="https://kit.fontawesome.com/6a97161b76.js" crossorigin="anonymous" async></script>
     <link rel="shortcut icon" href="{% if site.favicon-url %}{{site.favicon-url}}{% else %}{{ 'assets/images/logo.png' | absolute_url }}{% endif %}" type="image/x-icon">
