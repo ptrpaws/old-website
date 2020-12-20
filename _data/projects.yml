@@ -1,20 +1,20 @@
 - name: MNSPlusTrasher
-  image: https://user-images.githubusercontent.com/34898868/93655210-7b23d780-fa22-11ea-901b-f8afa6c62496.PNG
+  image: /assets/images/MNSPlusTrasher.png
   link: https://github.com/basti564/MNSPlusTrasher
   description: The first MNS+ specific "hacktool"
 - name: Augaudio
   link: https://github.com/basti564/augaudio
-  image: https://images.pexels.com/photos/164829/pexels-photo-164829.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+  image: /assets/images/sound.jpg
   description: A simple audio data augmentation package
 - name: PixelSorter
   link: https://github.com/basti564/PixelSorter
-  image: https://user-images.githubusercontent.com/34898868/77850765-db089680-71d4-11ea-90dc-d997f6e05783.png
+  image: /assets/images/PixelSorter.png
   description: Sort Your Pixels The Way You Want
 - name: OwOify
   link: https://github.com/basti564/OwOify
-  image: https://lh3.googleusercontent.com/57D5dcNTG6PlJ4ygm1TJUbtXJx9pJG81h9IcvlYcsMvTQLOKyTFbZMe7TTPYDTNNqTKvR4KYVY8mwUlz-rEa6Fm_sw=w128-h128-e365-rj-sc0x00ffffff
+  image: /assets/images/OwOify.png
   description: Chrome extension that replaces Google with "OwO"
 - name: Among-Us-Trasher
   link: https://github.com/basti564/Among-Us-Trasher
-  image: https://steamcdn-a.akamaihd.net/steam/apps/945360/header.jpg?t=1607727748
+  image: /assets/images/AMONGUS.jpg
   description: Among Us Mod Menu

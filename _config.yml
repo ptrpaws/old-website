@@ -17,8 +17,8 @@ site-keywords: Site, Website, Basti564
 # URL for the Image of custom Favicon
 favicon-url: /assets/images/favicon.ico
 
-# URL of the NyanCat GIF
-heroimage: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/67401945-34fc-46b8-8e8f-1982847277d4/ddba22b-2fad9d00-1d3f-4ec8-a65d-199a09dfa4e1.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNjc0MDE5NDUtMzRmYy00NmI4LThlOGYtMTk4Mjg0NzI3N2Q0XC9kZGJhMjJiLTJmYWQ5ZDAwLTFkM2YtNGVjOC1hNjVkLTE5OWEwOWRmYTRlMS5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ._-whxwEBEaTLWUvSWL80KTGiwpoy9dSPzXSRhfTAzeM
+# URL of the NyanCat APNG
+heroimage: /assets/images/NyanCat.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
@@ -43,7 +43,7 @@ disqus-shortname:
 # Name of the Author
 author-name: Bastian
 # URL for the Image of the Author
-author-image: https://avatars3.githubusercontent.com/u/34898868?u=a646ab1142943aae4c4b393c11ff38c9b75ce7a6
+author-image: /assets/images/Avatar.jpg
 # 60 Words About the Author
 author-about: Hi, this is me, Bastian. I'm 16 years old. I like making FOSS, reverse engineering, "hacking", AI and SDR. Please check out my public projects on my GitHub. Thanks for visiting my website btw.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
