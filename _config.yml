@@ -2,52 +2,52 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'https://basti564.github.io'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
 # Title of the Site
-title: What A Theme
+title: Basti564's website
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: Bastians small website and blog
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /assets/images/meta.jpg
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: Site, Website, Basti564
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: /assets/images/favicon.ico
 
-# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+# URL of the NyanCat GIF
+heroimage: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/67401945-34fc-46b8-8e8f-1982847277d4/ddba22b-2fad9d00-1d3f-4ec8-a65d-199a09dfa4e1.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNjc0MDE5NDUtMzRmYy00NmI4LThlOGYtMTk4Mjg0NzI3N2Q0XC9kZGJhMjJiLTJmYWQ5ZDAwLTFkM2YtNGVjOC1hNjVkLTE5OWEwOWRmYTRlMS5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ._-whxwEBEaTLWUvSWL80KTGiwpoy9dSPzXSRhfTAzeM
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+email: bastian.schwickert@gmail.com
+facebook_username:
+twitter_username: basti564
+instagram_username: schwickertba
+linkedin_username:
+github_username: basti564
+youtube_channel_id: UCyo_fLILT6ur64I1uVs2EcA
+reddit_username: Basti564
+behance_username:
+dribbble_username:
+spotify_username:
 
 # Google Analytics
-google-analytics: UA-163806439-1
+google-analytics: G-GMZ4MWP3BY
 
 # Disqus
-disqus-shortname: thedevslot
+disqus-shortname:
 
 # Name of the Author
-author-name: TheDevsLot
+author-name: Bastian
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: https://avatars3.githubusercontent.com/u/34898868?u=a646ab1142943aae4c4b393c11ff38c9b75ce7a6
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: Hi, this is me, Bastian. I'm 16 years old. I like making FOSS, reverse engineering, "hacking", AI and SDR. Please check out my public projects on my GitHub. Thanks for visiting my website btw.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://github.com/basti564
 
 # SASS
 sass:
