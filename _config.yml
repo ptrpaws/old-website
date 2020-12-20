@@ -16,6 +16,8 @@ site-image: /assets/images/meta.jpg
 site-keywords: Site, Website, Basti564
 # URL for the Image of custom Favicon
 favicon-url: /assets/images/favicon.ico
+# Language of the website
+language: "en"
 
 # URL of the NyanCat APNG
 heroimage: /assets/images/NyanCat.png
