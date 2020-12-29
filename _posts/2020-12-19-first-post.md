@@ -1,7 +1,7 @@
 ---
 title: First Post
 layout: post
-post-image: /assets/images/First-Post.png
+post-image: /assets/images/posts/First-Post.png
 description: The first blog post on my new website
 tags:
 - post
