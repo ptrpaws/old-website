@@ -12,7 +12,7 @@ tags:
 ---
 
 ## Please read before you continue
-This tutorial has been tested on multiple Quest 1 and 2 devices, but there is always the chance that something might not work on your device and that something will break. If you just want to use your Quest 2 without FaceBook account and are ok with using an Oculus / Oculus Developer account follow this [Video Tutorial](https://www.youtube.com/watch?v=5cyijb7CJZU), which has *no* sideeffects. Then do the "Disabeling additional Telemetry" and maybe "Prevent logging back in and disable killswitch" of this tutorial. Also please read 
+This tutorial has been tested on multiple Quest 1 and 2 devices, but there is always the chance that something might not work on your device and that something will break. If you just want to use your Quest 2 without FaceBook account and are ok with using an Oculus / Oculus Developer account follow this [Video Tutorial](https://www.youtube.com/watch?v=5cyijb7CJZU), which has *no* sideeffects. ~~Then do the "Disabeling additional Telemetry" and maybe "Prevent logging back in and disable killswitch" of this tutorial.~~ (This part has been removed, as it doesn't work after update V25)
 
 I'd like to thank [u/fisk47](https://www.reddit.com/user/fisk47) and [u/doctor_blob](https://www.reddit.com/user/doctor_blob) for testing this on their Quests
 
@@ -62,24 +62,24 @@ If you already know how to sideload an APK to the Quest just download the APK fr
 7. Click "Deactivate this device admin app" 
 8. Restart your Quest
 
-### Prevent logging back in and disable killswitch (optional)
-This will prevent you from logging back in and will also disable other unwanted stuff like the developer mode killswitch
-1. Open the "Oculess" app
-2. Disable the Oculus Companion Server (again) if it's active
-3. Open SideQuest on your PC
-4. Click this icon in sidequest
+### ~~Prevent logging back in and disable killswitch (optional)~~
+~~This will prevent you from logging back in and will also disable other unwanted stuff like the developer mode killswitch~~
+1. ~~Open the "Oculess" app~~
+2. ~~Disable the Oculus Companion Server (again) if it's active~~
+3. ~~Open SideQuest on your PC~~
+4. ~~Click this icon in sidequest~~
 ![Run ADB commands](/assets/images/posts/run.PNG)
-5. Click "CUSTOM COMMAND" in the drop down menu
-6. Paste the following command in the "Command To Run..." box :
-``` adb shell pm disable-user --user 0 com.oculus.companion.server ```
-7. Click on "RUN COMMAND"
+5. ~~Click "CUSTOM COMMAND" in the drop down menu~~
+6. ~~Paste the following command in the "Command To Run..." box :~~
+~~``` adb shell pm disable-user --user 0 com.oculus.companion.server ```~~
+7. ~~Click on "RUN COMMAND"~~
 
-To reverse this just run the folloging command:
-``` adb shell pm enable com.oculus.companion.server ```
+~~To reverse this just run the folloging command:~~
+~~``` adb shell pm enable com.oculus.companion.server ```~~
 
 
-### Disabeling additional Telemetry (optional)
-Do the steps from "Prevent logging back in" up to step 5 and paste the following command and click "RUN COMMAND"
+### ~~Disabeling additional Telemetry (optional)~~
+~~Do the steps from "Prevent logging back in" up to step 5 and paste the following command and click "RUN COMMAND"~~
 ```
 adb shell pm disable-user --user 0 com.oculus.unifiedtelemetry & adb shell pm disable-user --user 0 com.oculus.gatekeeperservice & adb shell pm disable-user --user 0 com.oculus.notification_proxy & adb shell pm disable-user --user 0 com.oculus.bugreporter & adb shell pm disable-user --user 0 com.oculus.os.logcollector & adb shell pm disable-user --user 0 com.oculus.appsafety
 ```
