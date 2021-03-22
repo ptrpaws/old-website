@@ -28,17 +28,22 @@ I'd like to thank [u/fisk47](https://www.reddit.com/user/fisk47) and [u/doctor_b
 - You will have to have logged into an account on your quest at least onece to enable developer mode.
 - You won't be able to use the Oculus Store while not logged in
 - FaceBooks social (media) features don't work.
-- The normal casting options
+- The built-in casting options
 - The build in Browser
 - Oculus TV
 
-##### Positive sideeffects
+##### What can I use instead?
+- For browsing and "TV": [Firefox Reality](https://github.com/MozillaReality/FirefoxReality)
+- Casting: Sidequest includes an easy-to-use interface for scrcpy and wireless ADB
+- Virtual Desktop: [ALVR](https://github.com/alvr-org/ALVR)
+
+##### Positive side effects
 - Disables *some* FaceBook Telemetry
 - The [Piracy Killswitch](https://www.reddit.com/r/OculusQuest/comments/dnuxfs/just_a_heads_up_that_the_latest_quest_90_update/) won't work anymore
 
 
 # Tutorial
-### Setting up the Quest 2 with an Oculus/Oculus Dev Accound instead of a FaceBook account (optional)
+### Setting up the Quest 2 with an Oculus/Oculus Dev Account instead of a FaceBook account (optional)
 This step is optional and the tutorial will work with a FaceBook account, but you can follow this [Video Tutorial](https://www.youtube.com/watch?v=5cyijb7CJZU) by "No Borscht For You" (original tutorial by [u/Tiger-Hobbes](https://www.reddit.com/r/OculusQuest/comments/jd6cfi/the_quest_2_has_allegedly_successfully_been_rooted/g9617l2?utm_source=share&utm_medium=web2x&context=3)) to set up your Quest 2 without a FaceBook account. 
 *Maybe that's all you have been looking for, as just using an Oculus account doesn't have the sideeffects of this method (except not working FaceBook social features)*
 
@@ -61,28 +66,6 @@ If you already know how to sideload an APK to the Quest just download the APK fr
 6. Choose "Companion Server" from the List
 7. Click "Deactivate this device admin app" 
 8. Restart your Quest
-
-### ~~Prevent logging back in and disable killswitch (optional)~~
-~~This will prevent you from logging back in and will also disable other unwanted stuff like the developer mode killswitch~~
-1. ~~Open the "Oculess" app~~
-2. ~~Disable the Oculus Companion Server (again) if it's active~~
-3. ~~Open SideQuest on your PC~~
-4. ~~Click this icon in sidequest~~
-![Run ADB commands](/assets/images/posts/run.PNG)
-5. ~~Click "CUSTOM COMMAND" in the drop down menu~~
-6. ~~Paste the following command in the "Command To Run..." box :~~
-~~``` adb shell pm disable-user --user 0 com.oculus.companion.server ```~~
-7. ~~Click on "RUN COMMAND"~~
-
-~~To reverse this just run the folloging command:~~
-~~``` adb shell pm enable com.oculus.companion.server ```~~
-
-
-### ~~Disabeling additional Telemetry (optional)~~
-~~Do the steps from "Prevent logging back in" up to step 5 and paste the following command and click "RUN COMMAND"~~
-```
-adb shell pm disable-user --user 0 com.oculus.unifiedtelemetry & adb shell pm disable-user --user 0 com.oculus.gatekeeperservice & adb shell pm disable-user --user 0 com.oculus.notification_proxy & adb shell pm disable-user --user 0 com.oculus.bugreporter & adb shell pm disable-user --user 0 com.oculus.os.logcollector & adb shell pm disable-user --user 0 com.oculus.appsafety
-```
 
 ### Logging back in
 1. Check in the "Oculess" app if the Companion Server is started
