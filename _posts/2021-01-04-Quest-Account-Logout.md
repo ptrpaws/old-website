@@ -2,7 +2,7 @@
 title: Using the Oculus Quest without an Account
 layout: post
 post-image: /assets/images/posts/Account-Removal.png
-description: This tutorial will show you how to remove you Oculus/Facebook account from your quest
+description: This tutorial will show you how to log out from your Oculus/Facebook account on your Oculus Quest
 tags:
 - oculus
 - oculus quest
@@ -12,9 +12,9 @@ tags:
 ---
 
 ## Please read before you continue
-This tutorial has been tested on multiple Quest 1 and 2 devices, but there is always the chance that something might not work on your device and that something will break. If you just want to use your Quest 2 without Facebook account and are ok with using an Oculus / Oculus Developer account follow this [Video Tutorial](https://www.youtube.com/watch?v=5cyijb7CJZU), which has *no* side effects. ~~Then do the "Disabling additional Telemetry" and maybe "Prevent logging back in and disable killswitch" of this tutorial.~~ (This part has been removed, as it doesn't work after update V25.)
+This tutorial has been tested on multiple Quest 1 and 2 devices, but there is always the chance that something might not work on your device and that something will break. If you just want to use your Quest 2 without a Facebook account and are okay with using an unmerged Oculus/Oculus developer account follow this [Video Tutorial](https://www.youtube.com/watch?v=5cyijb7CJZU), which has *no* side effects. ~~Then do the "Disabling additional Telemetry" and maybe "Prevent logging back in and disable killswitch" of this tutorial.~~ (This part has been removed, as it doesn't work after update V25.)
 
-I'd like to thank [u/fisk47](https://www.reddit.com/user/fisk47) and [u/doctor_blob](https://www.reddit.com/user/doctor_blob) for testing this on their Quests
+I'd like to thank [u/fisk47](https://www.reddit.com/user/fisk47) and [u/doctor_blob](https://www.reddit.com/user/doctor_blob) for testing this on their Quests.
 
 ##### What does work?
 - Hand tracking
@@ -45,7 +45,7 @@ This step is optional and the tutorial will work with a Facebook account, but yo
 *Maybe that's all you have been looking for, as just using an Oculus account doesn't have the side effects of this method (except nonfunctional Facebook social features). Note however that this might cease to work in 2022-2023, when (if) Facebook is going to force existing unmerged accounts to merge.*
 
 ### Sideloading the APK
-If you already know how to sideload an APK to the Quest just download the APK from step 1.
+If you already know how to sideload an APK to the Quest, just download the APK from step 1.
 1. Download the Oculess.apk from [here](https://github.com/basti564/Oculess/releases)
 2. Follow this [Video Guide](https://youtu.be/RoIXxIfRNTw?t=125) by "Virtual Reality Oasis"
 3. Click this icon in Sidequest 
@@ -57,7 +57,7 @@ If you already know how to sideload an APK to the Quest just download the APK fr
 ### Logging out
 1. Put on your Quest headset
 2. Select the "Apps" tab
-3. In the top right select "Unknown Sources" from the drop-down menu
+3. In the top right, scroll down and select "Unknown Sources" from the drop-down menu
 4. Open the "Oculess" app (com.bos.oculess)
 5. Click the "DISABLE COMPANION" Button
 6. Choose "Companion Server" from the List
