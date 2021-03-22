@@ -43,9 +43,9 @@ I'd like to thank [u/fisk47](https://www.reddit.com/user/fisk47) and [u/doctor_b
 
 
 # Tutorial
-### Setting up the Quest 2 with an Oculus/Oculus Dev Account instead of a FaceBook account (optional)
-This step is optional and the tutorial will work with a FaceBook account, but you can follow this [Video Tutorial](https://www.youtube.com/watch?v=5cyijb7CJZU) by "No Borscht For You" (original tutorial by [u/Tiger-Hobbes](https://www.reddit.com/r/OculusQuest/comments/jd6cfi/the_quest_2_has_allegedly_successfully_been_rooted/g9617l2?utm_source=share&utm_medium=web2x&context=3)) to set up your Quest 2 without a FaceBook account. 
-*Maybe that's all you have been looking for, as just using an Oculus account doesn't have the sideeffects of this method (except not working FaceBook social features)*
+### Setting up the Quest 2 with an Oculus/Oculus developer account instead of a Facebook account (optional)
+This step is optional and the tutorial will work with a Facebook account, but you can follow this [Video Tutorial](https://www.youtube.com/watch?v=5cyijb7CJZU) by "No Borscht For You" (original tutorial by [u/Tiger-Hobbes](https://www.reddit.com/r/OculusQuest/comments/jd6cfi/the_quest_2_has_allegedly_successfully_been_rooted/g9617l2?utm_source=share&utm_medium=web2x&context=3)) to set up your Quest 2 with an unmerged Oculus developer account instead.
+*Maybe that's all you have been looking for, as just using an Oculus account doesn't have the sideeffects of this method (except not working FaceBook social features). Note however that this might cease to work in 2022-2023, when (if) Facebook is going to force existing unmerged accounts to merge.*
 
 ### Sideloading the apk
 If you already know how to sideload an APK to the Quest just download the APK from step 1.
